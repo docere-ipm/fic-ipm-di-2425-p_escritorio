@@ -63,6 +63,8 @@
          componentes _vista_ y _estado/modelo_ esten en módulos o
          paquetes separados.
 	   
+	   - El servidor está disponible en el [repositorio del
+         servidor](https://github.com/nbarreira/medications-backend).
 
 ### :books: Objetivos de aprendizaje:
 
