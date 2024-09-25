@@ -13,7 +13,9 @@ Cada equipo debe cumplir las siguientes reglas:
 
   - Cada persona miembro del equipo tendrá que crear la documentación
     entregable que corresponde a su _role_ y será la responsable de
-    hacer _commit_ en el repositorio de dichos documentos.
+    hacer _commit_ en el repositorio de dichos documentos. En el
+    directorio `doc` del repositorio se ofrecen plantillas de ejemplo
+    para cada uno de los roles.
   
 Los _roles_ a desempeñar se describen a continuación.
 
@@ -57,6 +59,9 @@ Los _roles_ a desempeñar se describen a continuación.
   Entregables: La lista de los recursos, con una frase sobre cómo
   usarlo, el enlace para conectar con este, y una frase sobre cómo
   este recurso te ayuda a mejorar la práctica.
+  
+  Finalmente, el curador tiene la tarea de presentar y explicar a sus
+  compañeros los recursos indentificados.
   
   
 ## Rol de analista
@@ -109,11 +114,12 @@ Los _roles_ a desempeñar se describen a continuación.
      titulación?
 
 
-  Es probablemente uno de los roles más importantes de la práctica ya
-  que el analista es el encargado de llevar a cabo la reflexión de la
-  tarea, prestando especial atención a las aportaciones de los otros
-  roles, analizando qué aspectos se han abordado, pensando en cómo se
-  han trabajado y consensuando con sus compañeros una reflexión sobre
-  lo aprendido. En definitiva, el analista concreta y consensúa el
-  proceso de reflexión y metacognición del equipo.
+  Es probablemente uno de los roles más importantes y difícil de la
+  práctica ya que el analista es el encargado de llevar a cabo la
+  reflexión de la tarea, prestando especial atención a las
+  aportaciones de los otros roles, analizando qué aspectos se han
+  abordado, pensando en cómo se han trabajado y consensuando con sus
+  compañeros una reflexión sobre lo aprendido. En definitiva, el
+  analista concreta y consensúa el proceso de reflexión y
+  metacognición del equipo.
 
