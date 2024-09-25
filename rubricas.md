@@ -291,3 +291,29 @@ Las unidades están internacionalizadas (opcional).
     
     | Todas las cantidades se muestran adaptadas a la configuración de la
     | usuaria.
+
+
+## Objetivo: QA
+
+El programa funciona sin errores.
+
+    | El programa se ejecuta en todos los casos, estados y configuraciones
+	| sin ningún error.
+	
+    | En determinadas ocasiones el programa presenta algún error de ejecución,
+	| pero no provoca corrupción de datos, ni impide continuar la ejecución 
+	| del mismo.
+	
+    | El programa presenta errores de ejecución.
+	
+	
+El desarrollo del proyecto está completo.
+
+    | Se han creado y entregado todos los entregables requeridos y el programa
+	| implementa todos los casos de uso especificados.
+	
+	| Se han entregado todos los entregables, pero alguno no es correcto y/o
+	| el programa no implementa algún caso de uso de forma errornea.
+	
+	| No se ha entregado algún entregable y/o el programa no implementa todos
+	| los casos de uso.
