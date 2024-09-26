@@ -124,9 +124,11 @@
      interface a un idioma distinto del original.
 	 
   3. [Opcional] Iternacionalizar la aplicación para mostrar las
-     cantidades de los ingredientes en las unidades correspondientes a
-     la configuración de la usuaria.
-  
+     cantidades en las las unidades correspondientes a la
+     configuración de la usuaria.
+
+> :warning: No te olvides de las fechas.
+
 ### :books: Objetivos de aprendizaje:
 
   - Internacionalización de IGUs.
