@@ -7,45 +7,45 @@ aspectos y objetivos de aprendizaje de la práctica.
 Por cada aspecto evaluable se presentan tres opciones, que en el orden
 de aparición se corresponden con: mal, regular, bien.
 
-## Diseño de la interface
+## Diseño de la interfaz
 
 
-Existe el diseño de la interface.
+Existe el diseño de la interfase.
 
-    | En el repositorio no hay ningun pdf que contenga el diseño de la interface.
+    | En el repositorio no hay ningún pdf que contenga el diseño de la interfaz.
 
 
     | En el repositorio hay un pdf, pero contiene un diseño incompleto.
 
 
-    | En el repositorio hay un pdf y contine el diseño completo de la interface.
+    | En el repositorio hay un pdf y contiene el diseño completo de la interfaz.
 
 
-El diseño de la interface cubre los casos de uso.
+El diseño de la interfaz cubre los casos de uso.
 
-    | El diseño de la interface no cubre los casos de uso especificados
+    | El diseño de la interfaz no cubre los casos de uso especificados
     | para la aplicación.
 
-    | El diseño de la interface algunos casos de uso, pero no todos.
+    | El diseño de la interfaz algunos casos de uso, pero no todos.
 
-    | El diseño de la interface cubre todos los casos de uso.
+    | El diseño de la interfaz cubre todos los casos de uso.
 
 
-El diseño de la interface incluye la retroalimentación cuando hay E/S.
+El diseño de la interfaz incluye la retroalimentación cuando hay E/S.
 
-    | El diseño de la interface no tiene en cuenta mensajes de error, tiempos
+    | El diseño de la interfaz no tiene en cuenta mensajes de error, tiempos
     | de espera largos, ...
 
-    | El diseño de la interface sólo tiene en cuenta parte de la
+    | El diseño de la interfaz sólo tiene en cuenta parte de la
     | retroalimentación necesaria, usa formatos poco convencionales o mensajes
     | demasiado técnicos o con jerga.
     
-    | El diseño de la interface incluye una retoralimentación adecuada para
+    | El diseño de la interfaz incluye una retroalimentación adecuada para
     | todas las situaciones anómalas o no deseadas.
     
     
     
-Calidad del diseño de la interface.
+Calidad del diseño de la interfaz.
 
     | El diseño es pobre, usa elementos en contra de las convenciones, las
     | operaciones tienen más pasos de los necesarios, no se adapta al tamaño
@@ -62,10 +62,10 @@ Se ha realizado un control de versiones.
 
     | Existe un único commit o todos los commit se realizaron el mismo día.
     
-    | El número de commits es excaso y/o no refleja las versiones en la
+    | El número de commits es escaso y/o no refleja las versiones en la
     | evolución del desarrollo.
     
-    | Los commits del respositorio se corresponden con las versiones y los
+    | Los commits del repositorio se corresponden con las versiones y los
     | tiempos del desarrollo.
     
     
@@ -117,22 +117,22 @@ El diseño sw cubre la parte estática y dinámica.
     | El diseño sw está completo y ambas partes son correctas.
     
     
-El diseño sw separa la interface.
+El diseño sw separa la interfaz.
 
     | No existe un único componente encargado en exclusiva de crear y
-    | actualizar la interface.
+    | actualizar la interfaz.
     
-    | Existe un componente cuya responsabilidad es la interface, pero 
+    | Existe un componente cuya responsabilidad es la interfaz, pero 
     | asume otras responsabilidades, depende de otros componentes y/o
-    | existen otros componentes implicados en el manejo de la interface.
+    | existen otros componentes implicados en el manejo de la interfaz.
     
-    | Existe un único componente cuya responsabilidad es la interface y
+    | Existe un único componente cuya responsabilidad es la interfaz y
     | es independiente del resto de componentes.
 
 
 El diseño sw cubre la gestión de errores.
 
-    | En el diseño sw, especialmente la parte dinámica, no se comtempla
+    | En el diseño sw, especialmente la parte dinámica, no se contempla
     | la gestión de errores.
     
     | El diseño sw contempla la gestión de algunos errores, pero no todos.
@@ -154,11 +154,11 @@ El diseño sw cubre el funcionamiento concurrente.
 
 Se ha usado al librería indicada.
 
-    | La interface no se crea con Gtk+.
+    | La interfaz no se crea con Gtk+.
     
     | No se usa Gtk+ de manera convencional.
     
-    | La interface se crea usando Gtk+ de la manera prevista por la librería.
+    | La interfaz se crea usando Gtk+ de la manera prevista por la librería.
 
 
 Cada widget cumple su función natural.
@@ -173,30 +173,30 @@ Cada widget cumple su función natural.
 
 El layout se adapta a distintos tamaños de ventana, tamaños de fuente, ...
 
-    | La interface no se adapta al tamaño de la ventana y/o de las fuentes.
+    | La interfaz no se adapta al tamaño de la ventana y/o de las fuentes.
     | Algunos elementos pueden quedar ocultos para ciertos tamaños.
     
-    | La interface se adapta, pero el resultado desde el punto de vista del
+    | La interfaz se adapta, pero el resultado desde el punto de vista del
     | diseño gráfico no es correcto.
     
-    | La interface se adapta siguiendo las pautas del diseño de la interface.
+    | La interfaz se adapta siguiendo las pautas del diseño de la interfaz.
     
 
 ## Objetivo: Programación dirigida por eventos
 
-El flujo de ejecución está determinado exclusivamente por los eventos de la interface.
+El flujo de ejecución está determinado exclusivamente por los eventos de la interfaz.
 
      | La aplicación tiene un programación poco habitual que interfiere en el
      | orden natural de procesado de eventos.
      
      | La aplicación intenta controlar el orden en que la usuaria interactúa con
-     | la interface. Por ejemplo: abuso de diálogos y formularios.
+     | la interfaz. Por ejemplo: abuso de diálogos y formularios.
      
      | La aplicación procesa los eventos en el momento en que se producen y
-     | la usuaria tiene libertad para interactuar con la interface.
+     | la usuaria tiene libertad para interactuar con la interfaz.
      
 
-## Objetivo: Naturaleza concurrente de la interface
+## Objetivo: Naturaleza concurrente de la interfaz
 
 Las operaciones de E/S se realizan de forma concurrente.
 
@@ -256,29 +256,29 @@ Se ofrecen opciones en caso de error.
 
 ## Objetivo: i18n
 
-El idioma de la interface esta internacionalizado.
+El idioma de la interfaz esta internacionalizado.
 
     | La implementación no incluye los mecanismos necesarios para
-    | internacionalizar el texto de la interface.
+    | internacionalizar el texto de la interfaz.
     
     | Parte del texto está internacionalizado, pero no todo.
     
-    | La implementación incluye los mecanismos de interncionalización
-    | necesarios y todo el texto de la interface está internacionalizado.
+    | La implementación incluye los mecanismos de internacionalización
+    | necesarios y todo el texto de la interfaz está internacionalizado.
     
 
 Existe una localización a más de un idioma.
 
-    | La interface no está localizada a ningún idioma excepto el usado en
+    | La interfaz no está localizada a ningún idioma excepto el usado en
     | el propio código fuente.
     
-    | La interface está localizada varios idiomas, pero la localización no
+    | La interfaz está localizada varios idiomas, pero la localización no
     | está actualizada a la última versión de la aplicación, o la aplicación
-    | no se adpata a la configuración de la usuaria.
+    | no se adapta a la configuración de la usuaria.
     
-    | La interface está localizada a varios idiomas, la localización está
+    | La interfaz está localizada a varios idiomas, la localización está
     | actualizada a la última versión de la aplicación y el texto de la
-    | interface se muestra en el idioma definido en la configuración de
+    | interfaz se muestra en el idioma definido en la configuración de
     | la usuaria.
 
 
@@ -293,27 +293,30 @@ Las unidades están internacionalizadas (opcional).
     | usuaria.
 
 
+
 ## Objetivo: QA
 
 El programa funciona sin errores.
 
-    | El programa se ejecuta en todos los casos, estados y configuraciones
-	| sin ningún error.
+    | El programa presenta errores de ejecución.
 	
     | En determinadas ocasiones el programa presenta algún error de ejecución,
 	| pero no provoca corrupción de datos, ni impide continuar la ejecución 
 	| del mismo.
 	
-    | El programa presenta errores de ejecución.
+    | El programa se ejecuta en todos los casos, estados y configuraciones
+	| sin ningún error.
+	
 	
 	
 El desarrollo del proyecto está completo.
 
+	| No se ha entregado algún entregable y/o el programa no implementa todos
+	| los casos de uso.
+
+    | Se han entregado todos los entregables, pero alguno no es correcto y/o
+	| el programa no implementa algún caso de uso de forma errónea.
+	
     | Se han creado y entregado todos los entregables requeridos y el programa
 	| implementa todos los casos de uso especificados.
 	
-	| Se han entregado todos los entregables, pero alguno no es correcto y/o
-	| el programa no implementa algún caso de uso de forma errornea.
-	
-	| No se ha entregado algún entregable y/o el programa no implementa todos
-	| los casos de uso.
